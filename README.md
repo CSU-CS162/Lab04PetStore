@@ -22,8 +22,9 @@ graph TD;
 
 
 TODO:
-1. override makeNoise for each class to return "Meow", "Bark", and "Squeak" accordingly
-2. Write playFetch
-3. Write chaseMice
-4. Write wheelRun
-5. Cats have a secondary name for when they misbehave. Make a class variable for Cat called "badName" and add it to the cat constructor. Override getName() for cat to return "[name] aka [badName]"
+1. Use super to write each constructor for each class. 
+2. override makeNoise for each class to return "Meow", "Bark", and "Squeak" accordingly
+3. Write playFetch
+4. Write chaseMice
+5. Write wheelRun
+6. Cats have a secondary name for when they misbehave. Make a class variable for Cat called "badName" and add it to the cat constructor. Override getName() for cat to return "[name] aka [badName]"
