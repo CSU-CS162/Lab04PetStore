@@ -2,7 +2,13 @@
 Inheritance/overwriting Application Lab
 
 Make mermaid js to show inheritance relationship for lab
-
+```mermaid
+graph TD;
+    A{Pets}--> E(get/setName, get/setBreed, makeNoise);
+    E --> B[Cat] --> F(chaseMice);
+    E --> C[Dog] -->G(playFetch);
+    E --> D[Hamster] --> H(wheelRun);
+```
 Base class: pets
 Inheritting classes: cat, dog, hamster
 //getters/setters for name and breed--these are simply inheritted by other classes
