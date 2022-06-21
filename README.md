@@ -4,7 +4,7 @@ Inheritance/overwriting Application Lab
 Model for Inheritance (Where the curved boxes represent are the functions and the square boxes are the classes)
 ```mermaid
 graph TD;
-    A{Pets}--> E(get/setName, get/setBreed, makeNoise);
+    A[Pets]--> E(get/setName, get/setBreed, makeNoise);
     E --> B[Cat] --> F(chaseMice);
     E --> C[Dog] -->G(playFetch);
     E --> D[Hamster] --> H(wheelRun);
