@@ -1,7 +1,7 @@
 # Lab04PetStore
 Inheritance/overwriting Application Lab
 
-Make mermaid js to show inheritance relationship for lab
+Model for Inheritance (Where the curved boxes represent are the functions and the square boxes are the classes)
 ```mermaid
 graph TD;
     A{Pets}--> E(get/setName, get/setBreed, makeNoise);
