@@ -5,7 +5,7 @@ Model for Inheritance (Where the curved boxes represent are the functions and th
 ```mermaid
 graph TD;
     A[Pets]--> E(get/setName, get/setBreed, makeNoise);
-    E --> B[Cat] --> F(chaseMice);
+    E --> B[Cat];
     E --> C[Dog] -->G(playFetch);
     E --> D[Hamster] --> H(wheelRun);
 ```
