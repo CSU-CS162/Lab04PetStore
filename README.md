@@ -60,18 +60,27 @@ System.out.println(Gyorik.makeNoise());
 Cats, dogs, and hamsters are all different kinds of pets, so there are different things they are each known for. write playFetch() for Dog and wheelRun() for Hamster so that they do the following:
 ```
 1. playFetch() will take in an int and multiply that number by 7. If the resulting number is even, return "returned the ball", otherwise, return "won't give it back"
-2. wheelRun() will take in an ArrayList of Strings. If any of the strings is the phrase "tired", return false. If "tired" never appears, return true.
+2. wheelRun() will take in an Array of Strings. If any of the strings is the phrase "tired", return false. If "tired" never appears, return true.
+```
+To test these, make Dog and Hamster objects in their respective mains and call the methods with them like this:
+```java
+Dog Fido = new Dog("Fido", "mixed");
+System.out.println(Fido.playFetch(3)); //this should return "won't give it back"
+```
+And this:
+```java
+String[] run = ["sad", "happy", "angry", "excited", "energized"];
+Hamster Chewy = new Hamster("Chewy", "dwarf");
+System.out.println(Chewy.wheelRun(run));  //this should return true
+```
+# Step 4 -- Altering Cat
+Cats typically have a secondary name that their owners call them when they misbehave. Make a class variable for Cat called `badName` and add it to the cat constructor so that it gets constructed. Override getName() for Cat to now return "[name] aka [badName]".
+
+For Example, using our original Cat object, Gyorik, we would now test it like this:
+```java
+Cat Gyorik = new Cat("Gyorik", "russian blue", "Wretched Man");
+System.out.println(Gyorik.getName()); //this should now return "Gyorik aka Wretched Man"
 ```
 
-//Maybe they have to make a function for main that generates an array list of pets or something
-
-//Either that or maybe cat uses array lists/regular arrays to store mice it has caught
-
-
-TODO:
-1. Use super to write each constructor for each class. 
-2. override makeNoise for each class to return "Meow", "Bark", and "Squeak" accordingly
-3. Write playFetch
-5. Write wheelRun
-6. Maybe have a toString()?
-7. Cats have a secondary name for when they misbehave. Make a class variable for Cat called "badName" and add it to the cat constructor. Override getName() for cat to return "[name] aka [badName]"
+# Step 5 -- Turning in to Zybooks
+Turn it in to submit mode on Zybooks!
