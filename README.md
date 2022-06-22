@@ -37,7 +37,7 @@ To check your work, try constructing some objects of each type in their respecti
 Cat Gyorik = new Cat("Gyorik", "russian blue");
 ```
 # Step 2 -- Overriding makeNoise()
-As you have likely noticed by now, the default string returned by Pets is "\[animal sound]". Of course, cats, dogs, and hamsters have more specific noises than this. use `@override` to override the `makeNoise()` for Cat, Dog, and Hamster.
+As you have likely noticed by now, the default string returned by Pets is "\[animal sound]". Of course, cats, dogs, and hamsters have more specific noises than this. use `@Override` to override the `makeNoise()` for Cat, Dog, and Hamster.
 ```
 Cat should return "meow"
 Dog should return "bark"
@@ -47,7 +47,7 @@ Hamster should return "squeak"
 Here is an example of using @override using the example class Clown with the inheritting class Sad from the previous step:
 ```java
     //in Sad:
-    @override
+    @Override
     public String entertain(){
         return "cry";
     }
