@@ -3,4 +3,8 @@ public class Cat extends Pets {
       //TODO Student Code
     }
     //TODO Student Code -- Write an override for makeNoise() and for getName()
+    
+    public static void main(String[] args){
+
+    }
 }
