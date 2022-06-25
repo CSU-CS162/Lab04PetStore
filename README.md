@@ -3,28 +3,28 @@ Inheritance/overwriting Application Lab
 
 Model for Inheritance (Where the curved boxes represent are the functions and the square boxes are the classes)
 ```mermaid
-classDiagram;
-    Pets <|-- Cat;
-    Pets <|-- Dog;
-    Pets <|-- Hamster;
+classDiagram
+    Pets <|-- Cat
+    Pets <|-- Dog
+    Pets <|-- Hamster
     
     class Pets{
-    -String : name;
-    -String : breed;
-    getName() String;
-    setName() String;
-    getBreed() String;
-    setBreed() String;
-    makeNoise() String;
+    -String : name
+    -String : breed
+    getName() String
+    setName() String
+    getBreed() String
+    setBreed() String
+    makeNoise() String
     }
     class Cat{
-    -String : badName;
+    -String : badName
     }
     class Dog{
-    playFetch(int num) String;
+    playFetch(int num) String
     }
     class Hamster{
-    wheelRun(String[] run) boolean;
+    wheelRun(String[] run) boolean
     }
 ```
 
