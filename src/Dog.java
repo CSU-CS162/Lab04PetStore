@@ -8,7 +8,7 @@ public class Dog extends Pets {
     //This function should take in a number, multiply it by seven, and then return the appropriate string depending on if the number is even or odd
     public String playFetch(int num){
       //TODO Student Code
-      return ""
+      return "";
     }
   
     public static void main(String[] args){
