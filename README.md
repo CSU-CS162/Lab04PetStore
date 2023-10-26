@@ -1,7 +1,7 @@
 # Lab04PetStore
 Inheritance/overwriting Application Lab
 
-Model for Inheritance (Where the curved boxes represent are the functions and the square boxes are the classes)
+Model for Inheritance
 ```mermaid
 classDiagram
     Pets <|-- Cat
