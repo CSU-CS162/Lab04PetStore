@@ -87,7 +87,7 @@ System.out.println(Fido.playFetch(3)); //this should return "won't give it back"
 ```
 And this:
 ```java
-String[] run = ["sad", "happy", "angry", "excited", "energized"];
+String[] run = {"sad", "happy", "angry", "excited", "energized"};
 Hamster Chewy = new Hamster("Chewy", "dwarf");
 System.out.println(Chewy.wheelRun(run));  //this should return true
 ```
